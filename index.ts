@@ -7,7 +7,7 @@ const randomNo = Math.floor(Math.random() * 6 + 1);
 const number = await inquirer.prompt([
     {
         message: 'Please guess a number between 1 to 6',
-        name: 'userGuessedNumberssssssss',
+        name: 'userGuessedNumber',
         type: 'number'
     }
 ]);
