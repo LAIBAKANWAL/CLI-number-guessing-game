@@ -1,6 +1,9 @@
 #! /usr/bin/env node
 
 import inquirer from "inquirer";
+import chalk from "chalk";
+
+console.log(chalk.bgCyan.bold("\n Welcome to 'Guideskool Number Guessing Game' \n"));
 
 const randomNo = Math.floor(Math.random() * 6 + 1);
 
